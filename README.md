@@ -1,6 +1,8 @@
 # twentywords.ai
 
-![Banner](public/banner.png)
+<p align="center">
+  <img src="public/banner.png" />
+</p>
 
 <p align="center">No signup, no login, no paywall, no ads.</p>
 
@@ -20,6 +22,5 @@ This is also useful for people who:
 
 - [Vibhuti Arora](linkedin.com/in/vibhuti-arora-501569225/) for being a critic to my initial designs! (She still hates them :))
 - [Rishabh Keshan](https://www.linkedin.com/in/rishabhkeshan/) for helping with frontend UI bugs! (If its buggy, its not me xD)
-
 
 <p align="center">Made to explore NextJs & OpenAI :computer:</p>
