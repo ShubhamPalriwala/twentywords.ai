@@ -16,10 +16,10 @@ export default function Chat({
 
   useEffect(() => {
     if (conversationHistory.length > 1) {
-      if (endOfMessagesRef.current) {
-        endOfMessagesRef.current.scrollIntoView({ behavior: "smooth" });
-      }
+    if (endOfMessagesRef.current) {
+      endOfMessagesRef.current.scrollIntoView({ behavior: "smooth" });
     }
+  }
   }, [conversationHistory]);
 
   // This effect scrolls to the top of the window when the component is mounted
@@ -30,7 +30,6 @@ export default function Chat({
   return (
     <div className="flex h-screen w-full max-w-xl">
       <div className="w-full flex flex-col px-2 overflow-scroll [&::-webkit-scrollbar]:hidden mt-20 pb-44">
-        <div ref={endOfMessagesRef}></div>
         {conversationHistory.map((chat, index) => {
           return (
             <div key={index}>
@@ -47,6 +46,7 @@ export default function Chat({
             </div>
           );
         })}
+        <div ref={endOfMessagesRef}></div>
       </div>
     </div>
   );
