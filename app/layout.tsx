@@ -23,7 +23,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <html lang="en">
-        <body className={nunitoSans.className}>
+        <body className={`${nunitoSans.className} bg-custom-green`}>
           {children}
           <Analytics />
         </body>

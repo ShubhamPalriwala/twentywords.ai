@@ -16,29 +16,27 @@ export default function Home() {
   );
 
   return (
-    <div className="bg-custom-green h-screen flex flex-col items-center justify-between text-white text-center text-xl font-extrabold">
+    <div className="bg-custom-green flex flex-col items-center justify-between text-white text-center text-xl font-extrabold">
       <div className="max-w-xl w-full ">
         <HeadingBar
           isUserChatting={isUserChatting}
           setIsUserChatting={setIsUserChatting}
           setConversationHistory={setConversationHistory}
         />
-        <div className="h-full w-full flex flex-col items-center">
-          {!isUserChatting ? (
-            <LandingPage
-              setIsUserChatting={setIsUserChatting}
-              conversationHistory={conversationHistory}
-              setConversationHistory={setConversationHistory}
-              setRecommendationTexts={setLatestRecommendations}
-            />
-          ) : (
-            <Chat
-              conversationHistory={conversationHistory}
-              setConversationHistory={setConversationHistory}
-              setLatestRecommendations={setLatestRecommendations}
-            />
-          )}
-        </div>
+        {!isUserChatting ? (
+          <LandingPage
+            setIsUserChatting={setIsUserChatting}
+            conversationHistory={conversationHistory}
+            setConversationHistory={setConversationHistory}
+            setRecommendationTexts={setLatestRecommendations}
+          />
+        ) : (
+          <Chat
+            conversationHistory={conversationHistory}
+            setConversationHistory={setConversationHistory}
+            setLatestRecommendations={setLatestRecommendations}
+          />
+        )}
         <BottomBar
           isUserChatting={isUserChatting}
           setIsUserChatting={setIsUserChatting}

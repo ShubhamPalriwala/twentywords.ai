@@ -18,8 +18,11 @@ export default function LandingPage({
   const [isLoading, setIsLoading] = useState(false);
 
   return (
-    <div className="h-screen w-full max-w-xl flex flex-col items-center pb-16">
-      <div className="mt-48 w-2/3">get answers about anything in 20 words</div>
+    <div
+      className="h-screen w-full max-w-xl flex flex-col items-center pb-16"
+      style={{ height: "calc(100vh - 7rem)" }}
+    >
+      <div className="mt-32 w-2/3">get answers about anything in 20 words</div>
       <p className="text-white text-sm font-normal mt-4">For example,</p>
 
       <BoxesContainer
@@ -32,8 +35,8 @@ export default function LandingPage({
         setRecommendationTexts={setRecommendationTexts}
       />
 
-      <div className="flex flex-col items-center flex-grow">
-        <div className="flex-grow flex items-center">
+      <div className="flex flex-col items-center">
+        <div className="flex items-center my-12">
           <PrivacySection />
         </div>
         <p className="text-white text-sm font-normal mb-2">
