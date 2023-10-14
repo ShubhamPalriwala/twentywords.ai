@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# twentywords.ai
 
-## Getting Started
+![Banner](public/banner.png)
 
-First, run the development server:
+<p align="center">No signup, no login, no paywall, no ads.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Who is this for?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I introduced my parents to GPT a couple of months ago and they have been active users of it since then. They use it from official work to sending informal messages in their Whatsapp groups.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I observed their usage and they often had to ask GPT to reduce the text size as it gave very elaborate response. This app aims to solve that for them and for other parents who want to access some information real quick and in a concise way.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This is also useful for people who:
 
-## Learn More
+- Want to learn a new language's word everyday
+- Are in a meeting, and quickly want to understand a word
+- Want to quickly get a summary of any textual message
 
-To learn more about Next.js, take a look at the following resources:
+## Special Mentions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Vibhuti Arora](linkedin.com/in/vibhuti-arora-501569225/) for being a critic to my initial designs! (She still hates them :))
+- [Rishabh Keshan](https://www.linkedin.com/in/rishabhkeshan/) for helping with frontend UI bugs! (If its buggy, its not me xD)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">Made to explore NextJs & OpenAI :computer:</p>
