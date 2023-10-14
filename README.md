@@ -18,7 +18,7 @@ This is also useful for people who:
 
 ## Special Mentions
 
-- [Vibhuti Arora](linkedin.com/in/vibhuti-arora-501569225/) for being a critic to my initial designs! (She still hates them :))
-- [Rishabh Keshan](https://www.linkedin.com/in/rishabhkeshan/) for helping with frontend UI bugs! (If its buggy, its not me xD)
+- [Vibhuti Arora](https://linkedin.com/in/vibhuti-arora-501569225/) for being a critic to my initial designs! (She still hates them :))
+- [Rishabh Keshan](https://linkedin.com/in/rishabhkeshan/) for helping with frontend UI bugs! (If its buggy, its not me xD)
 
 <p align="center">Made to explore NextJs & OpenAI :computer:</p>
