@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction, useState } from "react";
 import { IChat } from "../utils/types";
-import AskAi from "../core/ai";
+import AskAi from "../utils/askAi";
 import { parseText } from "../utils/parseAiResponse";
 
 interface BoxesContainerProps {

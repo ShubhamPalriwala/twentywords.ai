@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import RegenerateIcon from "../../public/regenerate.svg"; // Import the SVG
-import AskAi from "../core/ai";
+import RegenerateIcon from "../../public/regenerate.svg";
+import AskAi from "../utils/askAi";
 import { parseText } from "../utils/parseAiResponse";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { IChat } from "../utils/types";

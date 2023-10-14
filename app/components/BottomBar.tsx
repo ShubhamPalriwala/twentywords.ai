@@ -4,7 +4,7 @@ import { useState, Dispatch, SetStateAction } from "react";
 import Image from "next/image";
 import SendIcon from "../../public/send.svg";
 import { IChat } from "../utils/types";
-import AskAi from "../core/ai";
+import AskAi from "../utils/askAi";
 import { parseText } from "../utils/parseAiResponse";
 import BoxesContainer from "./RecommendationBoxes";
 

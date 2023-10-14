@@ -5,3 +5,7 @@ export const defaultRecommendations = [
   "Self Help Books",
   "Mango Season",
 ];
+
+export const requestsPerMinutePerIp = 8;
+export const rateLimiterTimer = 60 * 1000; // 60 seconds
+export const uniqueTokensPerTimeInterval = 500;
